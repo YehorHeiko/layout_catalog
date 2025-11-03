@@ -60,9 +60,9 @@
     line-height: 18px;
     color: $color-text;
     letter-spacing: 0;
-
   }
-  &:hover, &__title{
+  &:hover,
+  &__title {
     color: $color-title;
   }
 
@@ -100,6 +100,7 @@
     font-size: $font-size-l;
     line-height: 18px;
     color: $color-text;
+    transition: 300ms;
   }
 
   &__buy {
@@ -123,7 +124,7 @@
     }
   }
 
-  &:hover{
+  &:hover {
     transform: scale(1.2);
   }
 }
