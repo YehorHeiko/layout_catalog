@@ -14,11 +14,19 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
-  line-height: 1.5;
+  font-family: Roboto, Arial, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  height: 100%;
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: #060b35;
 }
 
-body,
 h1,
 h2,
 h3,

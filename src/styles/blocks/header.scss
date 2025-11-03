@@ -1,36 +1,6 @@
 @import '../utils/vars';
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
-html,
-body {
-  font-family: Roboto, Arial, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  font-family: Roboto, Arial, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 12px;
-  line-height: 16px;
-  color: #060b35;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
 
 .site-header {
   display: flex;
@@ -74,11 +44,11 @@ img {
   position: relative;
   font-weight: 500;
   font-style: normal;
+  transition: 300ms;
 }
 
 .nav__link:hover {
   color: $color-button;
-  transition: 300ms;
 }
 
 .nav__link.is-active {
